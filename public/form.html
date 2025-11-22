@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Node6 Formular</title>
+</head>
+<body>
+  <h1>Eintrag hinzufügen</h1>
+  <form action="/submit" method="POST">
+    <label>Name:<br>
+      <input type="text" name="name" required>
+    </label>
+    <br><br>
+    <label>Nachricht:<br>
+      <textarea name="message" required></textarea>
+    </label>
+    <br><br>
+    <button type="submit">Speichern</button>
+  </form>
+</body>
+</html>
